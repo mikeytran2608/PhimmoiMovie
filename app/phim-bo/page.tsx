@@ -7,7 +7,7 @@ const PhimBo = () => {
     useEffect(() => {
         const getData = async () => {
             const res = await fetch(
-                "https://664d906fede9a2b55653eb1a.mockapi.io/list-movie-right"
+                "https://664d906fede9a2b55653eb1a.mockapi.io/movie_api"
             );
 
             const result = await res.json();
